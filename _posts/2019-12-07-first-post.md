@@ -13,7 +13,7 @@ This blog might cover various areas depending on my interests at different times
 As a warmup for the syntax, here are some random scratches:
 
 ~~~rust
-fn fn main() {
+fn main() {
 }
 ~~~
 
