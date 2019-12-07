@@ -1,0 +1,45 @@
+
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+
+# blog info
+title: tail -f /dev/brain
+description: >- # this means to ignore newlines until "baseurl:"
+  A blog about random thoughts.
+url: "https://guanqun.github.io"
+permalink: /:categories/:year/:month/:day/:title:output_ext
+
+# me info
+email: &email guanqun.lu@gmail.com
+author:
+  name: Guanqun Lu
+  email: *email
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: guanqun
+github_username:  guanqun
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
